@@ -1,0 +1,13 @@
+compose.php /usr/share/horde3/dimp
+dimple.php /usr/share/horde3/dimp
+imp.php /usr/share/horde3/dimp
+index.php /usr/share/horde3/dimp
+message.php /usr/share/horde3/dimp
+
+js /usr/share/horde3/dimp
+lib /usr/share/horde3/dimp
+locale /usr/share/horde3/dimp
+templates /usr/share/horde3/dimp
+themes /usr/share/horde3/dimp
+
+docs/CREDITS /usr/share/horde3/dimp/docs

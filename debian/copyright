@@ -1,0 +1,35 @@
+This package was debianized by Carl Fÿrstenberg <carl@excito.con> on Thu Sep 18 13:26:36 CEST 2008.
+
+It was downloaded from http://www.horde.org/dimp/
+
+Upstream Author:
+	
+	Chuck Hagenbuch <chuck@horde.org>
+	Jan Schneider <jan@horde.org>
+	Michael Slusarz <slusarz@horde.org>
+
+Copyright: 
+
+	Copyright 2005-2008 The Horde Project (http://www.horde.org/)
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+ 
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+ 
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+
+The Debian packaging is (C) 2008, Carl Fürstenberg <carl@excito.com> and
+is licensed under the GPL, see above.

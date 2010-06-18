@@ -1,0 +1,31 @@
+Source: dimp1
+Section: web
+Priority: optional
+Maintainer: Debian Horde Maintainers <pkg-horde-hackers@lists.alioth.debian.org>
+Uploaders: Gregory Colpart (evolix) <reg@evolix.fr>, Carl Fürstenberg <carl@excito.com>
+Build-Depends: debhelper (>= 7.2)
+Standards-Version: 3.8.4
+Homepage: http://www.horde.org/dimp/
+
+Package: dimp1
+Replaces: dimp
+Conflicts: dimp
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, horde3, dimp1-base
+Description: Dynamic IMP (Internet Messaging Program)
+ a PHP-based webmail system and a component of the Horde project.
+ DIMP, once installed, accesses mail over IMAP thus requiring little
+ to no special preparations on the server on which mail is stored.
+
+Package: dimp1-base
+Provides: dimp
+Replaces: dimp (<< 1.1)
+Conflicts: dimp (<< 1.1)
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, horde3-base
+Description: Dynamic IMP (Internet Messaging Program)
+ a PHP-based webmail system and a component of the Horde project.
+ DIMP, once installed, accesses mail over IMAP thus requiring little
+ to no special preparations on the server on which mail is stored.
+ .
+ This package contains the base files.
