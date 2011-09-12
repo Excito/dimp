@@ -1,6 +1,6 @@
 <?php
 /**
- * $Horde: dimp/lib/DIMP.php,v 1.110.2.38 2009-04-07 04:52:58 slusarz Exp $
+ * $Horde: dimp/lib/DIMP.php,v 1.110.2.41 2010/09/27 18:14:30 slusarz Exp $
  *
  * Copyright 2005-2009 The Horde Project (http://www.horde.org/)
  *
@@ -102,6 +102,10 @@ class DIMP {
             echo '<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />' . "\n";
         }
 
+        if (!empty($GLOBALS['dnsnoprefetch'])) {
+            echo '<meta http-equiv="x-dns-prefetch-control" content="off" />' . "\n";
+        }
+
         echo '<title>' . htmlspecialchars($page_title) . "</title>\n" .
              '<link href="' . $GLOBALS['registry']->getImageDir() . "/favicon.ico\" rel=\"SHORTCUT ICON\" />\n".
              IMP::wrapInlineScript(DIMP::_includeDIMPJSVars());
@@ -113,6 +117,7 @@ class DIMP {
         // Send what we have currently output so the browser can start
         // loading CSS/JS. See:
         // http://developer.yahoo.com/performance/rules.html#flush
+        ob_flush();
         flush();
     }
 
@@ -154,7 +159,6 @@ class DIMP {
         $code['conf'] = array(
             'URI_DIMP_INBOX' => Horde::url($dimp_webroot . '/index.php', true, -1),
             'URI_IMP' => Horde::url($dimp_webroot . '/imp.php', true, -1),
-            'URI_PREFS' => Horde::url($horde_webroot . '/services/prefs/', true, -1),
             'SESSION_ID' => defined('SID') ? SID : '',
 
             'app_urls' => $app_urls,

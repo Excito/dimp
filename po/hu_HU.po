@@ -604,8 +604,8 @@ msgid ""
 "from you when you have read this message. Click %s to send the notification "
 "message."
 msgstr ""
-"A feladó visszaigazolást kér arról, hogy Ön elolvasta ezt a levelet. Kérem %"
-"s kattintson, ha teljesíteni kívánja ezt a kérést."
+"A feladó visszaigazolást kér arról, hogy Ön elolvasta ezt a levelet. Kérem "
+"%s kattintson, ha teljesíteni kívánja ezt a kérést."
 
 #: lib/DIMP.php:187
 msgid "The server is still generating the message list."

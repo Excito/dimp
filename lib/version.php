@@ -1,1 +1,1 @@
-<?php define('DIMP_VERSION', 'H3 (1.1.4)') ?>
+<?php define('DIMP_VERSION', 'H3 (1.1.7)') ?>

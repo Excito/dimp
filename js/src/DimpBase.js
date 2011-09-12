@@ -1,7 +1,7 @@
 /**
  * DimpBase.js - Javascript used in the base DIMP page.
  *
- * $Horde: dimp/js/src/DimpBase.js,v 1.1.2.118 2009-05-20 18:27:51 slusarz Exp $
+ * $Horde: dimp/js/src/DimpBase.js,v 1.1.2.119 2010/09/27 18:14:34 slusarz Exp $
  *
  * Copyright 2005-2009 The Horde Project (http://www.horde.org/)
  *
@@ -759,7 +759,7 @@ var DimpBase = {
         this.showPreview = !this.showPreview;
         $('previewtoggle').setText(this.showPreview ? DIMP.text.hide_preview : DIMP.text.show_preview);
         [ $('msgList') ].invoke(this.showPreview ? 'removeClassName' : 'addClassName', 'msglistNoPreview');
-        new Ajax.Request(DimpCore.addSID(DIMP.conf.URI_PREFS), { parameters: { app: 'dimp', pref: 'show_preview', value: this.showPreview ? 1 : 0 } });
+        DimpCore.doAction('SetPrefValue', { pref: 'show_preview', value: this.showPreview ? 1 : 0 });
         this.viewport.showSplitPane(this.showPreview);
         if (this.showPreview) {
             this.initPreviewPane();
