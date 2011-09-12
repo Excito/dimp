@@ -1,3 +1,9 @@
+dimp1 (1.1.7-1) vincent; urgency=low
+
+  * Imported Upstream version 1.1.7
+
+ -- Carl Fürstenberg <azatoth@gmail.com>  Mon, 12 Sep 2011 16:24:11 +0200
+
 dimp1 (1.1.4-1) vincent; urgency=low
 
   * New upstream release 
