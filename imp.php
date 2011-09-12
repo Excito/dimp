@@ -3,7 +3,7 @@
  * imp.php - performs an AJAX-requested action and returns the DIMP-specific
  * JSON object
  *
- * $Horde: dimp/imp.php,v 1.194.2.38 2009-05-18 22:48:32 slusarz Exp $
+ * $Horde: dimp/imp.php,v 1.194.2.39 2010/09/27 18:14:30 slusarz Exp $
  *
  * Copyright 2005-2009 The Horde Project (http://www.horde.org/)
  *
@@ -722,6 +722,13 @@ case 'SendMDN':
     require_once IMP_BASE . '/lib/UI/Message.php';
     $imp_ui = new IMP_UI_Message();
     $imp_ui->MDNCheck($ob->header, true);
+    break;
+
+case 'SetPrefValue':
+    $prefname = Util::getPost('pref');
+    if ($prefname == 'show_preview') {
+        $result = $prefs->setValue(Util::getPost('pref'), Util::getPost('value'));
+    }
     break;
 }
 

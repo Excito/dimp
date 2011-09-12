@@ -1,6 +1,6 @@
 <?php
 /**
- * $Horde: dimp/index.php,v 1.59.2.13 2009-01-06 15:22:36 jan Exp $
+ * $Horde: dimp/index.php,v 1.59.2.14 2010/07/01 20:00:26 slusarz Exp $
  *
  * Copyright 2005-2009 The Horde Project (http://www.horde.org/)
  *
@@ -22,6 +22,7 @@ if (!$dimp_configured) {
                                    array('portal.php' => 'This file controls the blocks that appear in DIMP\'s portal'));
 }
 
+$dnsnoprefetch = true;
 $load_imp = true;
 require_once DIMP_BASE . '/lib/base.php';
 

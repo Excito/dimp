@@ -1,14 +1,14 @@
 # Dutch translations for Dimp package.
-# Copyright 2006-2009 The Horde Project
+# Copyright 2006-2010 The Horde Project
 # This file is distributed under the same license as the Dimp package.
-# Jan Kuipers <jrkuipers@lauwerscollege.nl>, 2006-2009.
+# Jan Kuipers <jrkuipers@lauwerscollege.nl>, 2006-2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dimp H3 (1.1.4-cvs)\n"
+"Project-Id-Version: Dimp H3 (1.1.5-cvs)\n"
 "Report-Msgid-Bugs-To: dev@lists.horde.org\n"
 "POT-Creation-Date: 2009-12-14 08:18+0100\n"
-"PO-Revision-Date: 2009-12-14 18:11+0100\n"
+"PO-Revision-Date: 2010-06-12 00:46+0200\n"
 "Last-Translator: Jan Kuipers <jrkuipers@lauwerscollege.nl>\n"
 "Language-Team: Dutch <i18n@lists.horde.org>\n"
 "MIME-Version: 1.0\n"

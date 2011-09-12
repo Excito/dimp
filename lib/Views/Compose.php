@@ -2,7 +2,7 @@
 /**
  * Compose view logic.
  *
- * $Horde: dimp/lib/Views/Compose.php,v 1.20.2.13 2009-01-06 15:22:40 jan Exp $
+ * $Horde: dimp/lib/Views/Compose.php,v 1.20.2.14 2010/05/19 17:01:01 slusarz Exp $
  *
  * Copyright 2005-2009 The Horde Project (http://www.horde.org/)
  *
@@ -107,7 +107,7 @@ class DIMP_Views_Compose {
         ob_start();
         require DIMP_TEMPLATES . '/chunks/compose.php';
         $result['html'] .= ob_get_contents();
-        ob_clean();
+        ob_end_clean();
 
         return $result;
     }

@@ -13,7 +13,7 @@
  *   $session_timeout  - What to do on session timeout?  Default is to output
  *                       the login page; also 'json' and 'none'.
  *
- * $Horde: dimp/lib/base.php,v 1.33.2.9 2009-01-06 15:22:38 jan Exp $
+ * $Horde: dimp/lib/base.php,v 1.33.2.11 2010/10/21 10:27:22 jan Exp $
  *
  * Copyright 2005-2009 The Horde Project (http://www.horde.org/)
  *
@@ -61,13 +61,16 @@ if (!defined('DIMP_TEMPLATES')) {
 }
 
 // Set viewmode.
-if (!Util::nonInputVar('noset_impview')) {
+if (!Util::nonInputVar('noset_impview') &&
+    isset($_SESSION['imp']) &&
+    is_array($_SESSION['imp'])) {
     $_SESSION['imp']['viewmode'] = 'dimp';
 }
 $GLOBALS['noset_impview'] = true;
 
 // Notification system.
-if ($_SESSION['imp']['viewmode'] == 'dimp') {
+if (!isset($_SESSION['imp']) || !isset($_SESSION['imp']['viewmode']) ||
+    $_SESSION['imp']['viewmode'] == 'dimp') {
     require_once DIMP_BASE . '/lib/Notification/Listener/status.php';
     $notification = &Notification::singleton();
     // It is possible IMP may have attached its status handler already if doing

@@ -1,43 +1,40 @@
-# Spanish translations for dimp package.
-# Traducciones al español para el paquete dimp.
-# Copyright 2008-2009 The Horde Project
-# This file is distributed under the same license as the dimp package.
-# Automatically generated, 2008.
+# Czech translations for Dimp package.
+# Copyright (C) 2011 Horde Project
+# This file is distributed under the same license as the Dimp package.
+# Automatically generated, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: DIMP 1.0-rc4\n"
+"Project-Id-Version: Dimp H3 (1.1.6)\n"
 "Report-Msgid-Bugs-To: dev@lists.horde.org\n"
-"POT-Creation-Date: 2011-01-05 12:01+0100\n"
-"PO-Revision-Date: 2011-01-05 12:01+0100\n"
-"Last-Translator: Manuel P. Ayala <mayala@unex.es>\n"
+"POT-Creation-Date: 2011-05-11 10:28+0200\n"
+"PO-Revision-Date: 2011-05-11 10:28+0200\n"
+"Last-Translator: Matej Ha¹uµ <hasis053341@gmail.com>\n"
 "Language-Team: i18n@lists.horde.org\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: lib/Views/ShowMessage.php:295
-#, php-format
+#, fuzzy, php-format
 msgid "%d Attachment"
 msgid_plural "%d Attachments"
-msgstr[0] "%d adjunto"
-msgstr[1] "%d adjuntos"
+msgstr[0] "%s pøíloh"
+msgstr[1] "%s pøíloha"
+msgstr[2] "%s pøílohy"
 
 #: imp.php:674
-#, php-format
 msgid "%s messages were purged from \"%s\"."
-msgstr "Se purgaron %s mensajes de \"%s\"."
+msgstr "Konec zprávy od %s"
 
 #: lib/Block/newmail.php:70
-#, php-format
 msgid "%s more unseen messages..."
-msgstr "%s mensajes más sin leer..."
+msgstr "%s dal¹ích neprohlédnutých zpráv"
 
 #: imp.php:460
-#, php-format
 msgid "%s was successfully added to your address book."
-msgstr "Se ha añadido correctamente %s a su libreta de direcciones."
+msgstr "%s byl úspì¹nì pøidán do Va¹eho adresáøe."
 
 #: templates/index/index.inc:247
 #, php-format
@@ -45,95 +42,95 @@ msgid ""
 "%s will delete the current message and move to the next message if a single "
 "message is selected."
 msgstr ""
-"%s eliminará el mensaje actual y se trasladará al siguiente mensaje, si se "
-"ha seleccionado un único mensaje."
+"%s sma¾e aktuální zprávu a pøesune se na dal¹í zprávu pokud byla vybrána "
+"pouze jedna zpráva."
 
 #: imp.php:672
-#, php-format
 msgid "1 message was purged from \"%s\"."
-msgstr "Se purgó 1 mensaje de \"%s\"."
+msgstr "1 zpráva byla odstranìna z \"%s\"."
 
 #: lib/Block/newmail.php:68
 msgid "1 more unseen message..."
-msgstr "1 mensaje más sin leer..."
+msgstr "Je¹tì 1 neprohlédnutá zpráva..."
 
 #: lib/DIMP.php:231
 msgid ""
 "A popup window could not be opened. Your browser may be blocking popups."
 msgstr ""
-"No se puede abrir una ventana emergente. Su navegador debe estar bloqueando "
-"las ventanas emergentes."
+"Vyskakovací okno nelze otevøít. Zøejmnì Vá¹ prohlí¾eè blokuje vyskakovací "
+"okna."
 
 #: templates/chunks/message.php:127 templates/index/index.inc:422
 msgid "Add to Address Book"
-msgstr "Añadir a la Libreta de direcciones"
+msgstr "Pøidat do adresáøe"
 
 #: templates/index/index.inc:193 templates/index/index.inc:198
 msgid "All"
-msgstr "Todos"
+msgstr "V¹e"
 
 #: templates/index/index.inc:220 templates/index/index.inc:222
 msgid "Arrival"
-msgstr "Llegada"
+msgstr "Èas doruèení"
 
 #: templates/chunks/message.php:122 templates/index/index.inc:392
 msgid "Attachments Only"
-msgstr "Sólo adjuntos"
+msgstr "Jenom pøílohy"
 
 #: templates/index/index.inc:126
 msgid "Base Level"
-msgstr "Nivel base"
+msgstr "Základní ùroveò"
 
 #: templates/chunks/compose.php:114
 msgid "Bcc: "
-msgstr "Bcc: "
+msgstr "Skrytá kopie: "
 
 #: templates/index/index.inc:360 templates/index/index.inc:405
 msgid "Blacklist"
-msgstr "Lista negra"
+msgstr "Èerná listina"
 
 #: templates/chunks/message.php:121 templates/index/index.inc:391
 msgid "Body Text Only"
-msgstr "Sólo el texto del cuerpo"
+msgstr "Jenom tìlo zprávy"
 
 #: lib/DIMP.php:223
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Zru¹it"
 
 #: lib/DIMP.php:259
+#, fuzzy
 msgid ""
 "Cancelling this message will permanently discard its contents and will "
 "delete auto-saved drafts.\n"
 "Are you sure you want to do this?"
 msgstr ""
-"Cancelar este mensaje desechará permanentemente su contenido y eliminará los "
-"borradores guardados de forma automática.\n"
-"¿Seguro que desea hacer ésto?"
+"Zru¹ení této zprávy bude mít za následek trvalou ztrátu jejího obsahu.Takté¾ "
+"se sma¾ou automaticky ukládané kopie z rozepsaných zpráv.\n"
+"Opravdu to chcete udìlat?"
 
 #: templates/index/index.inc:293
 msgid "Cc"
-msgstr "Cc"
+msgstr "Kopie"
 
 #: templates/chunks/compose.php:100
 msgid "Cc: "
-msgstr "Cc: "
+msgstr "Kopie: "
 
 #: templates/chunks/compose.php:57
 msgid "Check Spelling"
-msgstr "Comprobar ortografía"
+msgstr "Zkontrolovat pravopis"
 
 #: templates/index/index.inc:330
 msgid "Check for New Mail"
-msgstr "Comprobar correo nuevo"
+msgstr "Zkontrolovat novou po¹tu"
 
 #: lib/DIMP.php:225
 msgid "Checking..."
-msgstr "Comprobando..."
+msgstr "Kontroluji..."
 
 #: templates/index/index.inc:351 templates/index/index.inc:375
 #: templates/index/index.inc:401
 msgid "Clear Flag"
-msgstr "Anular bandera"
+msgstr "Vyèistit oznaèení"
 
 #: templates/index/index.inc:242
 #, php-format
@@ -143,543 +140,538 @@ msgid ""
 "range, navigate to the last message of the range, and then click on the last "
 "message while holding down the %s key."
 msgstr ""
-"Pulse un mensaje manteniendo presionada la tecla %s para seleccionar varios "
-"mensajes. Para seleccionar un rango de mensajes, pulse el primero, "
-"desplácese hasta el último del rango y pulse sobre él manteniendo presionada "
-"la tecla %s."
+"Pokud chcete vybrat víc zpráv, tak zmáèknìte klávesu %s a kliknìte na zprávu."
+"Pokud chcete vybrat rozsah zpráv, tak kliknìte na první zprávu, jïete na "
+"poslední zprávu z rozsahu, zmáèknìte klávesu %s a kliknìte na poslední "
+"zprávu."
 
 #: templates/index/index.inc:276
 msgid "Collapse Headers"
-msgstr "Colapsar cabeceras"
+msgstr "Zbalit hlavièky"
 
 #: templates/index/index.inc:183
 msgid "Compose"
-msgstr "Redactar"
+msgstr "Vytvoøit"
 
 #: templates/index/index.inc:234
 msgid "Could not get message list from server"
-msgstr "No se puede obtener el listado de mensajes del servidor"
+msgstr "Nelze získat seznam zpráv ze serveru"
 
 #: lib/DIMP.php:235
 msgid "Create folder:"
-msgstr "Crear carpeta:"
+msgstr "Vytvoøit slo¾ku:"
 
 #: templates/index/index.inc:322 templates/index/index.inc:335
 msgid "Create subfolder"
-msgstr "Crear subcarpeta"
+msgstr "Vytvoøit podslo¾ku"
 
 #: lib/DIMP.php:236
 msgid "Create subfolder:"
-msgstr "Crear subcarpeta:"
+msgstr "Vytvoøit podslo¾ku:"
 
 #: templates/index/index.inc:242 templates/index/index.inc:249
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: config/.bak/prefs.php.dist:11
+#: config/prefs.php.dist:11
 #, php-format
 msgid "Customize tasks to run upon logon to %s."
-msgstr "Personaliza las tareas a ejecutar al iniciar sesión en %s."
+msgstr "Nastavení úkolù provádìných pøi pøihlá¹ení do modulu %s."
 
 #: templates/index/index.inc:219 templates/index/index.inc:223
 #: templates/index/index.inc:285
 msgid "Date"
-msgstr "Fecha"
+msgstr "Datum"
 
 #: templates/index/index.inc:247
 msgid "Del"
-msgstr "Elim"
+msgstr "Del"
 
 #: templates/chunks/message.php:49 templates/index/index.inc:185
 #: templates/index/index.inc:365 templates/index/index.inc:377
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Smazat"
 
 #: templates/index/index.inc:325
 msgid "Delete Folder"
-msgstr "Eliminar carpeta"
+msgstr "Smazat slo¾ku"
 
 #: templates/index/index.inc:247
 msgid "Delete the currently selected message(s)."
-msgstr "Borra el/los mensaje(s) seleccionado(s) actualmente."
+msgstr "Smazat aktuálne vybranou(é) zprávu(y)."
 
 #: templates/index/index.inc:331
 msgid "Do Not Check for New Mail"
-msgstr "No comprobar correo nuevo"
+msgstr "Nekontrolovat na nové zprávy"
 
 #: templates/index/index.inc:324
 msgid "Empty Folder"
-msgstr "Vaciar carpeta"
+msgstr "Vyprázdnit slo¾ku"
 
 #: templates/index/index.inc:246
 msgid "End"
-msgstr "Fin"
+msgstr "Konec"
 
 #: templates/index/index.inc:248
 msgid "Enter"
-msgstr "Intro"
+msgstr "Enter"
 
 #: templates/chunks/message.php:120 templates/index/index.inc:390
 msgid "Entire Message"
-msgstr "Mensaje completo"
+msgstr "Celá zpráva"
 
 #: templates/index/index.inc:257
 msgid "Expand Headers"
-msgstr "Expandir cabeceras"
+msgstr "Rozbalit hlavièky"
 
 #: templates/index/index.inc:350 templates/index/index.inc:374
 #: templates/index/index.inc:400
 msgid "Flag Message"
-msgstr "Marcar mensaje"
+msgstr "Oznaè zprávu"
 
-#: config/.bak/portal.php.dist:28
+#: config/portal.php.dist:28
 msgid "Folder Summary"
-msgstr "Resumen de la carpeta"
+msgstr "Shrnutí slo¾ky"
 
 #: templates/index/index.inc:191
 msgid "Folders: "
-msgstr "Carpetas: "
+msgstr "Slo¾ky: "
 
 #: templates/chunks/message.php:42 templates/index/index.inc:176
 msgid "Forward"
-msgstr "Reenviar"
+msgstr "Pøeposlat"
 
 #: templates/index/index.inc:346
 msgid "Forward Attachments Only"
-msgstr "Sólo adjuntos"
+msgstr "Pøeposlat jenom pøílohy"
 
 #: templates/index/index.inc:345
 msgid "Forward Body Text Only"
-msgstr "Sólo el texto del cuerpo"
+msgstr "Pøeposlat jenom tìlo zprávy"
 
 #: templates/index/index.inc:344
 msgid "Forward Entire Message"
-msgstr "Mensaje completo"
+msgstr "Pøeposlat celou zprávu"
 
 #: templates/index/index.inc:199 templates/index/index.inc:207
 #: templates/index/index.inc:281
 msgid "From"
-msgstr "De"
+msgstr "Od"
 
 #: templates/chunks/compose.php:76
 msgid "From: "
-msgstr "De: "
+msgstr "Od: "
 
-#: config/.bak/prefs.php.dist:9
+#: config/prefs.php.dist:9
 msgid "General Options"
-msgstr "Opciones generales"
+msgstr "V¹eobecné mo¾nosti"
 
 #: lib/DIMP.php:226 templates/index/index.inc:63 templates/index/index.inc:184
 msgid "Get Mail"
-msgstr "Traer correo"
+msgstr "Získat po¹tu"
 
 #: lib/Block/newmail.php:72
 msgid "Go to your Inbox..."
-msgstr "Ir al buzón de Entrada..."
+msgstr "Jdi na doruèenou po¹tu..."
 
 #: lib/Views/ShowMessage.php:359
 msgid "HERE"
-msgstr "AQUÍ"
+msgstr "ZDE"
 
 #: templates/chunks/compose.php:67
 msgid "HTML composition"
-msgstr "Redacción HTML"
+msgstr "HTML kompozice"
 
 #: lib/DIMP.php:232 templates/index/index.inc:396
 msgid "Hide Preview"
-msgstr "Ocultar vista previa"
+msgstr "Ukrýt náhled"
 
 #: lib/DIMP.php:217
 msgid "Hide Quoted Text"
-msgstr "Ocultar texto citado"
+msgstr "Ukrýt citovaný text"
 
 #: templates/index/index.inc:427
 msgid "High Priority"
-msgstr "Prioridad alta"
+msgstr "Vysoká dùle¾itost"
 
 #: templates/index/index.inc:246
 msgid "Home"
-msgstr "Inicio"
+msgstr "Home"
 
 #: templates/index/index.inc:60
 msgid "Horde"
 msgstr "Horde"
 
-#: config/.bak/prefs.php.dist:22
+#: config/prefs.php.dist:22
 msgid "Inbox"
-msgstr "Entrada"
+msgstr "Doruèená po¹ta"
 
 #: templates/index/index.inc:181
 msgid "Innocent"
-msgstr "Inofensivo"
+msgstr "Chtìná (ham)"
 
 #: lib/DIMP.php:224 templates/chunks/compose.php:20
 #: templates/index/index.inc:34
 msgid "Loading..."
-msgstr "Cargando..."
+msgstr "Naèítávám..."
 
 #: templates/index/index.inc:79
 msgid "Log Out"
-msgstr "Salir"
+msgstr "Odhlá¹ení"
 
-#: config/.bak/prefs.php.dist:10
+#: config/prefs.php.dist:10
 msgid "Login Tasks"
-msgstr "Tareas de inicio de sesión"
+msgstr "Úkoly provádìné pøi pøihlá¹ení"
 
 #: templates/index/index.inc:428
 msgid "Low Priority"
-msgstr "Prioridad baja"
+msgstr "Nízká dùle¾itost"
 
 #: lib/Views/ListMessages.php:160
 #, php-format
 msgid "Mailbox %s does not exist."
-msgstr "El buzón %s no existe."
+msgstr "Schránka %s neexistuje."
 
 #: templates/index/index.inc:328
 msgid "Mark all as New"
-msgstr "Marcar todos como nuevos"
+msgstr "Oznaèit v¹echny jako nové"
 
 #: templates/index/index.inc:327
 msgid "Mark all as Read"
-msgstr "Marcar todos como Leídos"
+msgstr "Oznaèit v¹echny jako pøeètené"
 
 #: templates/index/index.inc:357
 msgid "Mark as Innocent"
-msgstr "Marcar como inofensivo"
+msgstr "Oznaèit v¹echny jako chtìné (ham)"
 
 #: templates/index/index.inc:349 templates/index/index.inc:399
 msgid "Mark as New"
-msgstr "Marcar como nuevo"
+msgstr "Oznaèit jako nové"
 
 #: templates/index/index.inc:348 templates/index/index.inc:398
 msgid "Mark as Read"
-msgstr "Marcar como leído"
+msgstr "Oznaèit jako pøeètené"
 
 #: templates/index/index.inc:354
 msgid "Mark as Spam"
-msgstr "Marcar como Spam"
+msgstr "Oznaèit jako nevy¾ádanou po¹tu"
 
 #: lib/DIMP.php:213
 msgid "Message"
-msgstr "Mensaje"
+msgstr "Zpráva"
 
 #: compose.php:344
 msgid "Message Composition"
-msgstr "Redacción del mensaje"
+msgstr "Vytvoøit zprávu"
 
 #: compose.php:182
 msgid "Message sent successfully."
-msgstr "Se envió correctamente el mensaje."
+msgstr "Zpráva byla úspì¹nì odeslána."
 
 #: templates/chunks/message.php:37 templates/chunks/message.php:105
 msgid "Message:"
-msgstr "Mensaje:"
+msgstr "Zpráva:"
 
 #: templates/index/index.inc:197
 msgid "Message: "
-msgstr "Mensaje: "
+msgstr "Zpráva: "
 
 #: lib/DIMP.php:214
 msgid "Messages"
-msgstr "Mensajes"
+msgstr "Zprávy"
 
 #: lib/DIMP.php:221
-#, php-format
 msgid "Move %s to %s"
-msgstr "Trasladar %s a %s"
+msgstr "Pøesunout %s do %s"
 
 #: templates/index/index.inc:245
 msgid "Move one page up/down through the message list."
-msgstr "Desplazan una página arriba/abajo a través del listado de mensajes."
+msgstr "Pøesunout se o jednu stránku nahoru/dolù v seznamu zpráv."
 
 #: templates/index/index.inc:246
 msgid "Move to the beginning/end of the message list."
-msgstr "Desplazan hasta el comienzo o el final del listado de mensajes."
+msgstr "Pøesunout se nazaèátek/nakonec v seznamu zpráv."
 
 #: templates/index/index.inc:244
 msgid "Move up/down through the message list."
-msgstr ""
-"Desplazan hacia arriba y hacia abajo a lo largo del listado de mensajes."
+msgstr "Pøesunout se nahoru/dolù v seznamu zpráv."
 
 #: templates/index/index.inc:118
 msgid "My Folders"
-msgstr "Mis carpetas"
+msgstr "Mé slo¾ky"
 
 #: templates/index/index.inc:122
 msgid "New Folder"
-msgstr "Carpeta nueva"
+msgstr "Nová slo¾ka"
 
 #: compose.php:204 templates/chunks/message.php:126
 #: templates/index/index.inc:62 templates/index/index.inc:421
 msgid "New Message"
-msgstr "Redactar"
+msgstr "Nová zpráva"
 
 #: lib/DIMP.php:216
 msgid "No Messages"
-msgstr "Sin mensajes"
+msgstr "®ádné zprávy"
 
 #: lib/Block/foldersummary.php:75
 msgid "No folders are being checked for new mail."
-msgstr "No se comprueba el correo nuevo en ninguna carpeta."
+msgstr "®ádná slo¾ka není kontrolována na pøítomnost nových zpráv."
 
 #: lib/Block/foldersummary.php:79
 msgid "No folders with new messages"
-msgstr "No hay carpetas con mensajes nuevos"
+msgstr "®ádná slo¾ka neobsahuje nové zprávy"
 
 #: lib/Block/foldersummary.php:77
 msgid "No folders with unseen messages"
-msgstr "No hay carpetas con mensajes sin leer"
+msgstr "®ádná slo¾ka neobsahuje neprohlédnuté zprávy"
 
 #: templates/index/index.inc:233
 msgid "No messages to display"
-msgstr "No hay mensajes que mostrar"
+msgstr "®ádné zprávy které by se daly zobrazit"
 
 #: lib/Block/newmail.php:41
 msgid "No unread messages"
-msgstr "No mensajes no leídos"
+msgstr "®ádné nepøeètené zprávy"
 
 #: lib/DIMP.php:220
 msgid "Ok"
-msgstr "Aceptar"
+msgstr "Ok"
 
 #: templates/index/index.inc:16 templates/index/index.inc:263
 msgid "Open in new window"
-msgstr "Abrir en una nueva ventana"
+msgstr "Otevøít v novém oknì"
 
 #: templates/index/index.inc:248
 msgid "Open message in a popup window."
-msgstr "Abre el mensaje en una ventana emergente."
+msgstr "Otevøít zprávu ve vyskakovacím oknì."
 
 #: templates/index/index.inc:74
 msgid "Options"
-msgstr "Opciones"
+msgstr "Mo¾nosti"
 
 #: templates/index/index.inc:186
 msgid "Other Actions"
-msgstr "Otras acciones"
+msgstr "Jiné akce"
 
 #: lib/DIMP.php:237
 msgid "Permanently delete all messages?"
-msgstr "¿Borrar todos los mensajes definitivamente?"
+msgstr "Natrvalo smazat v¹echny zprávy?"
 
 #: lib/DIMP.php:238
 msgid "Permanently delete this folder?"
-msgstr "¿Eliminar definitivamente esta carpeta?"
+msgstr "Natrvalo smazat tuto slo¾ku?"
 
 #: templates/index/index.inc:245
 msgid "PgDown"
-msgstr "Abajo"
+msgstr "PgDown"
 
 #: templates/index/index.inc:245
 msgid "PgUp"
-msgstr "Arriba"
+msgstr "PgUp"
 
 #: lib/DIMP.php:209 templates/index/index.inc:69 templates/index/index.inc:141
-#: config/.bak/prefs.php.dist:21
+#: config/prefs.php.dist:21
 msgid "Portal"
-msgstr "Portal"
+msgstr "Portál"
 
 #: templates/chunks/message.php:57 templates/index/index.inc:265
 msgid "Print"
-msgstr "Imprimir"
+msgstr "Vytisknout"
 
 #: templates/index/index.inc:415
 msgid "Purge Deleted"
-msgstr "Purgar eliminados"
+msgstr "Vyèistit smazané"
 
 #: templates/chunks/compose.php:52
 msgid "Read Receipt"
-msgstr "Acuse de recibo"
+msgstr "Potvrzení pøeètení"
 
 #: lib/DIMP.php:267
 msgid ""
 "Really discard all formatting information? This operation cannot be undone."
 msgstr ""
-"¿Eliminar realmente toda la información de formato? Esta operación no se "
-"puede deshacer."
+"Opravdu zahodit v¹echny informace o formátování? Tuto operaci nelze vrátit."
 
 #: templates/index/index.inc:323 templates/index/index.inc:336
 msgid "Rename Folder"
-msgstr "Renombrar carpeta"
+msgstr "Pøejmenovat slo¾ku"
 
 #: lib/DIMP.php:234
 msgid "Rename folder to:"
-msgstr "Renombrar carpeta como:"
+msgstr "Pøejmenovat slo¾ku na:"
 
 #: templates/chunks/message.php:41 templates/index/index.inc:175
 msgid "Reply"
-msgstr "Responder"
+msgstr "Odpovìdìt"
 
 #: templates/index/index.inc:341
 msgid "Reply to All"
-msgstr "Responder a todos"
+msgstr "Odpovìdìt v¹em"
 
 #: compose.php:232
 msgid "Reply to All:"
-msgstr "Responder a todos:"
+msgstr "Odpovìdìt v¹em:"
 
 #: templates/index/index.inc:342
 msgid "Reply to List"
-msgstr "Responder a la lista"
+msgstr "Odpovìdìt seznamu"
 
 #: compose.php:234
 msgid "Reply to List:"
-msgstr "Responder a la lista:"
+msgstr "Odpovìdìt seznamu:"
 
 #: templates/index/index.inc:340
 msgid "Reply to Sender"
-msgstr "Responder al remitente"
+msgstr "Odpovìdìt odesílateli"
 
 #: compose.php:230
 msgid "Reply:"
-msgstr "Responder:"
+msgstr "Odpovìï:"
 
 #: templates/chunks/message.php:47
 msgid "Report Innocent"
-msgstr "Notificar como inofensivo"
+msgstr "Nahlásit jako chtìné (ham)"
 
 #: templates/chunks/message.php:44
 msgid "Report Spam"
-msgstr "Notificar como Spam"
+msgstr "Nahlásit jako nechtìné (spam)"
 
 #: compose.php:214 lib/Views/ShowMessage.php:154
 msgid "Requested message not found."
-msgstr "No se encontró el mensaje solicitado."
+msgstr "Po¾adovaná zpráva nebyla nalezena."
 
 #: templates/index/index.inc:372
 msgid "Resume Draft"
-msgstr "Reanudar borrador"
+msgstr "Pokraèovat v rozepsané zprávì"
 
 #: lib/Views/ShowMessage.php:298
 msgid "Save All"
-msgstr "Guardar todo"
+msgstr "Ulo¾it v¹e"
 
 #: templates/chunks/compose.php:140
 msgid "Save Attachments in sent folder"
-msgstr "Guardar adjuntos en la carpeta de correo enviado"
+msgstr "Ulo¾it pøílohy se zprávou ve slo¾ce pro odeslanou po¹tu?"
 
 #: templates/chunks/compose.php:58
 msgid "Save as Draft"
-msgstr "Guardar como borrador"
+msgstr "Ulo¾it jako rozepsanou zprávu"
 
 #: templates/chunks/compose.php:55
 msgid "Save in "
-msgstr "Guardar en"
+msgstr "Ulo¾it do "
 
 #: lib/DIMP.php:266
 msgid "Saving..."
-msgstr "Guardando..."
+msgstr "Ukládám..."
 
 #: lib/DIMP.php:211
 msgid "Search"
-msgstr "Buscar"
+msgstr "Vyhledávání"
 
 #: lib/Views/ListMessages.php:80
 msgid "Search Results"
-msgstr "Resultados de la búsqueda"
+msgstr "Výsledky vyhledávání"
 
 #: templates/index/index.inc:412
 msgid "Select All"
-msgstr "Seleccionar todas"
+msgstr "Vybrat v¹e"
 
 #: templates/index/index.inc:249
 msgid "Select all messages in the current mailbox."
-msgstr "Seleccionar todos los mensajes del buzón actual."
+msgstr "Vybrat v¹echny zprávy v aktuální schránce."
 
 #: templates/chunks/compose.php:50
 msgid "Send"
-msgstr "Enviar"
+msgstr "Odeslat"
 
 #: lib/DIMP.php:260
 msgid "Send message without a Subject?"
-msgstr "¿Enviar mensaje sin Asunto?"
+msgstr "Odeslat zprávu bez Pøedmìtu?"
 
 #: lib/DIMP.php:265
 msgid "Sending..."
-msgstr "Enviando..."
+msgstr "Odesílám..."
 
 #: templates/index/index.inc:242 templates/index/index.inc:247
 msgid "Shift"
-msgstr "May"
+msgstr "Shift"
 
 #: templates/chunks/compose.php:65
 msgid "Show Bcc"
-msgstr "Mostrar Bcc"
+msgstr "Ukázat skrytou kopii"
 
 #: templates/chunks/compose.php:64
 msgid "Show Cc"
-msgstr "Mostrar Cc"
+msgstr "Ukázat kopii"
 
 #: lib/DIMP.php:233 templates/index/index.inc:396
 msgid "Show Preview"
-msgstr "Mostrar vista previa"
+msgstr "Ukázat náhled"
 
 #: lib/DIMP.php:218
 msgid "Show Quoted Text"
-msgstr "Mostrar texto citado"
+msgstr "Ukázat citovaný text"
 
 #: templates/index/index.inc:226
 msgid "Size"
-msgstr "Tamaño"
+msgstr "Velikost"
 
 #: templates/index/index.inc:178
 msgid "Spam"
-msgstr "Spam"
+msgstr "Nevy¾ádaná po¹ta"
 
 #: templates/chunks/compose.php:70
 msgid "Special Characters"
-msgstr "Caracteres especiales"
+msgstr "Zvlá¹tní znaky"
 
 #: templates/chunks/message.php:67 templates/index/index.inc:201
 #: templates/index/index.inc:211 templates/index/index.inc:215
 #: templates/index/index.inc:276
 msgid "Subject"
-msgstr "Asunto"
+msgstr "Pøedmìt"
 
 #: templates/chunks/compose.php:128
 msgid "Subject: "
-msgstr "Asunto: "
+msgstr "Pøedmìt: "
 
 #: lib/DIMP.php:264
 msgid "The attachment limit has been reached."
-msgstr "Se ha alcanzado el límite de adjuntos."
+msgstr "Byl dosa¾en limit na pøílohy."
 
 #: lib/DIMP.php:228
 msgid "The connection to the remote server has been restored."
-msgstr "Se ha reanudado la conexión al servidor remoto."
+msgstr "Pøipojení ke vzdálenému serveru se podaøilo obnovit."
 
 #: templates/index/index.inc:243
 msgid "The following keyboard shortcuts are available:"
-msgstr "Se dispone de los siguientes atajos de teclado:"
+msgstr "Jsou dostupné následujúcí klávesové zkratky:"
 
 #: lib/DIMP.php:260
 msgid "The message does not have a Subject entered."
-msgstr "No se ha indicado un Asunto en el mensaje."
+msgstr "Zpráva nemá zadaný Pøedmìt."
 
-#: config/.bak/prefs.php.dist:23
+#: config/prefs.php.dist:23
 msgid "The page to view immediately after login."
-msgstr "Página visualizada tras iniciar la sesión."
+msgstr "Stránka, která se má zobrazit ihned po pøihlásení."
 
 #: lib/Views/ShowMessage.php:360
-#, php-format
 msgid ""
 "The sender of this message is requesting a Message Disposition Notification "
 "from you when you have read this message. Click %s to send the notification "
 "message."
 msgstr ""
-"El remitente de este mensaje le solicita una Notificación de Consulta de "
-"Mensaje cuando lo haya leído. Pulse %s para enviársela."
+"Odesílatel této zprávy od Vás po¾aduje potvrzení (Message Disposition "
+"Notification) po pøeètení zprávy. Kliknìte %s pro odeslání potvrzující "
+"zprávy."
 
 #: lib/DIMP.php:229
 msgid "The server is still generating the message list."
-msgstr "El servidor está generando aún el listado de mensajes."
+msgstr "Server je¹tì poøád vytváøí seznam zpráv."
 
 #: lib/DIMP.php:230
 msgid ""
 "The server was unable to generate the message list. Please try again later."
-msgstr ""
-"El servidor no pudo generar el listado de mensajes. Pruebe otra vez más "
-"tarde."
+msgstr "Serveru se nezdaøilo vytvoøit seznam zpráv. Zkuste to prosím pozdìji."
 
 #: lib/DIMP.php:227
 msgid ""
@@ -688,110 +680,107 @@ msgid ""
 "interrupting your session. You will not see any updates until the connection "
 "is restored."
 msgstr ""
-"No se ha contactado con el servidor remoto durante varios minutos. El "
-"servidor puede estar temporalmente fuera de servicio o problemas de red "
-"pueden estar interrumpiendo su sesión. No podrá ver ninguna actualización "
-"hasta que se restablezca la conexión."
+"Nemám ¾ádné spojení se vzdáleným serverem po dobu nìkolika minut.Server mù¾e "
+"být doèasne nepøístupný nebo Va¹i relaci pøeru¹ují sí»ové problémy. Nebudete "
+"vidìt aktuální stav, dokud se spojení neobnoví."
 
 #: templates/index/index.inc:212 templates/index/index.inc:214
 msgid "Thread"
-msgstr "Conversación"
+msgstr "Souvislost"
 
 #: templates/index/index.inc:200 templates/index/index.inc:208
 #: templates/index/index.inc:289
 msgid "To"
-msgstr "Para"
+msgstr "Komu"
 
 #: templates/chunks/message.php:113 templates/index/index.inc:385
 msgid "To All"
-msgstr "A todos"
+msgstr "Pro v¹echny"
 
 #: templates/chunks/message.php:115 templates/index/index.inc:386
 msgid "To List"
-msgstr "A la lista"
+msgstr "Pro seznam"
 
 #: templates/chunks/message.php:112 templates/index/index.inc:384
 msgid "To Sender"
-msgstr "Al remitente"
+msgstr "Pro odesílatele"
 
 #: templates/index/index.inc:241
 msgid ""
 "To preview a message, select it from the list above. A right-click on the "
 "messages will display available actions."
 msgstr ""
-"Para previsualizar un mensaje, selecciónelo en la lista superior. Pulsando "
-"con el botón derecho en los mensajes se mostrarán las acciones disponibles."
+"Chcete-li zobrazit náhled zprávy, vyberte ji ze seznamu. Kliknutím "
+"pravýmtlaèítkem na zprávy zobrazíte dostupné akce."
 
 #: templates/chunks/compose.php:86
 msgid "To: "
-msgstr "Para: "
+msgstr "Komu: "
 
 #: templates/index/index.inc:367 templates/index/index.inc:379
 #: templates/index/index.inc:416
 msgid "Undelete"
-msgstr "Recuperar"
+msgstr "Obnovit smazané"
 
 #: lib/Views/ShowMessage.php:87
 msgid "Undisclosed Recipients"
-msgstr "Destinatarios ocultos"
+msgstr "Utajení pøíjemci"
 
 #: lib/Views/ShowMessage.php:323
 msgid "Unknown Date"
-msgstr "Fecha desconocida"
+msgstr "Neznámé datum"
 
 #: lib/DIMP.php:263
 msgid "Uploading..."
-msgstr "Cargando..."
+msgstr "Nahrávám..."
 
 #: lib/DIMP.php:210
 msgid "User Options"
-msgstr "Opciones personales"
+msgstr "U¾ivatelské mo¾nosti"
 
 #: templates/chunks/message.php:60 templates/index/index.inc:268
 msgid "View Message Source"
-msgstr "Ver origen del mensaje"
+msgstr "Zobrazit zdrojový kód zprávy"
 
 #: templates/index/index.inc:363 templates/index/index.inc:408
 msgid "Whitelist"
-msgstr "Lista blanca"
+msgstr "Bílá listina"
 
 #: lib/DIMP.php:261
 msgid ""
 "You have already changed the message body, are you sure you want to drop the "
 "changes?"
-msgstr ""
-"Ha realizado cambios en el cuerpo del mensaje, ¿seguro que desea perder los "
-"cambios?"
+msgstr "Ji¾ ste zmìnili tìlo zprávy, jste si jistí ¾e chcete zahodit zmìny?"
 
 #: lib/Views/ShowMessage.php:95
 msgid "[Hide Addresses]"
-msgstr "[Ocultar direcciones]"
+msgstr "[Skrýt adresy]"
 
-#: lib/Block/newmail.php:58 lib/Views/ListMessages.php:296
-#: lib/Views/ShowMessage.php:281
+#: lib/Views/ShowMessage.php:281 lib/Views/ListMessages.php:296
+#: lib/Block/newmail.php:58
 msgid "[No Subject]"
-msgstr "[Sin asunto]"
+msgstr "[®ádný pøedmìt]"
 
 #: lib/DIMP.php:222
 msgid "base level of the folder tree"
-msgstr "nivel base del árbol de carpetas"
+msgstr "základní ùroveò stromu slo¾ek"
 
 #: templates/index/index.inc:258
 msgid "from"
-msgstr "de"
+msgstr "od"
 
 #: lib/DIMP.php:219
 msgid "lines"
-msgstr "líneas"
+msgstr "øádky"
 
 #: lib/DIMP.php:215
 msgid "of"
-msgstr "de"
+msgstr "z"
 
 #: lib/DIMP.php:262
 msgid "remove"
-msgstr "eliminar"
+msgstr "odstranit"
 
 #: lib/DIMP.php:212
 msgid "results found"
-msgstr "resultados encontrados"
+msgstr "nalezené výsledky"

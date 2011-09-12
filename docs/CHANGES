@@ -1,4 +1,30 @@
 ------
+v1.1.7
+------
+
+[jan] Add Czech translation (Matej Hašuľ <hasis0533541@gmail.com>).
+
+
+------
+v1.1.6
+------
+
+[jan] Fix redirecting to login screen if session times out (Bug #9281).
+
+
+------
+v1.1.5
+------
+
+[mms] SECURITY: XSS - Make sure mailbox name displayed on mailbox page is
+      properly encoded (Bug #9240).
+[jan] Fix notices with certain output buffer configurations
+      (Valentin.Vidic@CARNet.hr, Bug #7851).
+[mms] Turn DNS prefetching off when displaying untrusted message content
+      (Ticket #8836).
+
+
+------
 v1.1.4
 ------
 

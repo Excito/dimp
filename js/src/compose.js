@@ -1,7 +1,7 @@
 /**
  * compose.js - Javascript code used in the DIMP compose view.
  *
- * $Horde: dimp/js/src/compose.js,v 1.84.2.35 2009-10-06 23:16:09 slusarz Exp $
+ * $Horde: dimp/js/src/compose.js,v 1.84.2.36 2010/03/03 05:56:25 slusarz Exp $
  *
  * Copyright 2005-2009 The Horde Project (http://www.horde.org/)
  *
@@ -31,7 +31,8 @@ var DimpCompose = {
     {
         if (DIMP.conf_compose.qreply) {
             this.closeQReply();
-        } else if (DIMP.baseWindow || DIMP.conf_compose.popup) {
+        } else if ((DIMP.baseWindow && DIMP.baseWindow.DimpBase) ||
+                   DIMP.conf_compose.popup) {
             DimpCore.closePopup();
         } else {
             DimpCore.redirect(DIMP.conf.URI_DIMP_INBOX);
@@ -245,7 +246,7 @@ var DimpCompose = {
 
             case 'save_draft':
                 this.button_pressed = false;
-                if (DIMP.baseWindow) {
+                if (DIMP.baseWindow && DIMP.baseWindow.DimpBase) {
                     DIMP.baseWindow.DimpBase.pollFolders();
                     DIMP.baseWindow.DimpCore.showNotifications(r.msgs);
                 }
@@ -256,7 +257,7 @@ var DimpCompose = {
 
             case 'send_message':
                 this.button_pressed = false;
-                if (DIMP.baseWindow) {
+                if (DIMP.baseWindow && DIMP.baseWindow.DimpBase) {
                     if (d.reply_type == 'reply') {
                         DIMP.baseWindow.DimpBase.flag('answered', d.index, d.reply_folder);
                     }
